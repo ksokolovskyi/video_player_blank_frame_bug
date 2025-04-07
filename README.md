@@ -1,0 +1,1 @@
+Sample project to reproduce the [video_player blank first frame issue](https://github.com/flutter/flutter/issues/139107) on iOS web.
