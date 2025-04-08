@@ -1,6 +1,6 @@
 name: video_player_blank_frame_bug
 description: "Sample project to reproduce the video_player blank first frame issue on iOS web"
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -12,10 +12,11 @@ dependencies:
   video_player: ^2.9.5
 
 # dependency_overrides:
-#   video_player:
-#     path: ../packages/packages/video_player/video_player
 #   video_player_web:
-#     path: ../packages/packages/video_player/video_player_web
+#     git:
+#       url: https://github.com/ksokolovskyi/packages
+#       ref: fix-video-player-blank-first-frame
+#       path: packages/video_player/video_player_web
 
 dev_dependencies:
   flutter_test:
